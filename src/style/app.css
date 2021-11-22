@@ -86,4 +86,19 @@
 .mainContent {
   padding: 1rem;
 }
+
+body {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.app {
+  width: 375px;
+  height: 812px;
+  border: 1px solid black;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
 /*# sourceMappingURL=app.css.map */
